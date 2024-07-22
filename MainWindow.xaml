@@ -1,0 +1,16 @@
+﻿<Window x:Class="ImageRenamer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageRenamer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="400">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Name="UploadButton" Content="Upload Image" Click="UploadButton_Click" Width="200" Margin="5"/>
+            <TextBox Name="FilenameTextBox" Width="200" Margin="5" Text="En"/>
+            <Button Name="SaveButton" Content="Save Image" Click="SaveButton_Click" Width="200" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
