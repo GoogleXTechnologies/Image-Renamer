@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <Button Name="UploadButton" Content="Upload Image" Click="UploadButton_Click" Width="200" Margin="5"/>
-            <TextBox Name="FilenameTextBox" Width="200" Margin="5" Text="En"/>
+            <TextBox Name="FilenameTextBox" Width="200" Margin="5" Text="enter xss script"/>
             <Button Name="SaveButton" Content="Save Image" Click="SaveButton_Click" Width="200" Margin="5"/>
         </StackPanel>
     </Grid>
